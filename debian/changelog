@@ -1,0 +1,5 @@
+pdlib (1.0+git20180830-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #775864)
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 28 Dec 2018 07:28:07 -0300

@@ -1,0 +1,20 @@
+Source: pdlib
+Section: php
+Priority: optional
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Uploaders: Matias De lelllis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 9), php-dev, dh-php, libdlib-dev
+Standards-Version: 3.9.7
+Vcs-Git: https://github.com/goodspb/pdlib
+Vcs-Browser: https://github.com/goodspb/pdlib
+Homepage: https://github.com/goodspb/pdlib
+
+Package: pdlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${php:Depends}
+Description: Detect faces with PHP
+ This extension provides a PHP implementation of the Pdlib
+ .
+ The extension offers two new functions returning either an associative array
+ of the faces coordinates found on the given image, or only the number of faces
+ found on the given image.
