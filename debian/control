@@ -1,15 +1,15 @@
-Source: pdlib
+Source: php7.0-pdlib
 Section: php
 Priority: optional
 Maintainer: Matias De lellis <mati86dl@gmail.com>
 Uploaders: Matias De lelllis <mati86dl@gmail.com>
-Build-Depends: debhelper (>= 9), php-dev, dh-php, libdlib-dev
+Build-Depends: debhelper (>= 9), pkg-config, php-dev, libdlib-dev, libpng-dev
 Standards-Version: 3.9.7
 Vcs-Git: https://github.com/goodspb/pdlib
 Vcs-Browser: https://github.com/goodspb/pdlib
 Homepage: https://github.com/goodspb/pdlib
 
-Package: pdlib
+Package: php7.0-pdlib
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${php:Depends}
 Description: Detect faces with PHP

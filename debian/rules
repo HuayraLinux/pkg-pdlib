@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-#	dh $@ --with php
+	dh $@
 override_dh_auto_configure:
 	phpize
 	dh_auto_configure

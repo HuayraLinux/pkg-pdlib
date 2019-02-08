@@ -1,5 +1,11 @@
-pdlib (1.0+git20180830-1) unstable; urgency=medium
+php7.0-pdlib (1.0+git20180830-2) unstable; urgency=medium
 
-  * Initial release. (Closes: #775864)
+  * Add libpng-dev and force pkg-config as deps
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 07 Feb 2019 10:48:42 -0300
+
+php7.0-pdlib (1.0+git20180830-1) unstable; urgency=medium
+
+  * Initial release.
 
  -- Matias De lellis <mati86dl@gmail.com>  Fri, 28 Dec 2018 07:28:07 -0300
