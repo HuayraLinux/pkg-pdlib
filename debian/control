@@ -3,7 +3,7 @@ Section: php
 Priority: optional
 Maintainer: Matias De lellis <mati86dl@gmail.com>
 Uploaders: Matias De lelllis <mati86dl@gmail.com>
-Build-Depends: debhelper (>= 9), pkg-config, php-dev, libdlib-dev, libpng-dev
+Build-Depends: debhelper (>= 9), pkg-config, php-dev (>= 7.0), libdlib-dev (>= 19.13), libpng-dev
 Standards-Version: 3.9.7
 Vcs-Git: https://github.com/goodspb/pdlib
 Vcs-Browser: https://github.com/goodspb/pdlib
